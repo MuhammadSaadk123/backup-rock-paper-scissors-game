@@ -1,0 +1,46 @@
+body {
+    background-image: url("p6.jpg");
+    }
+    
+    #rock,
+    #paper,
+    #scissors {     
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.25s;
+      }
+      
+      #rock:hover {opacity: 1}
+      #paper:hover {opacity: 1}
+      #scissors:hover {opacity: 1}
+
+      .images {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+    
+    .title {
+        text-align: center;
+    }
+    
+    #score,
+    #response {
+        text-align: center;
+    }
+    
+    .Reset {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .playing {
+        transform: scale(1.1);
+        border-color: #ffc600;
+        box-shadow: 0 0 10pxffc600;
+    }
+
+  
